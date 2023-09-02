@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jess G Artistry</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hvr2dkj.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+.navbar-logo-centered .navbar-nav .nav-link{
+    padding: .5em 1em;
+}
+@media(max-width:992px){
+    .img-logo{
+        display:none;
+    }
+    ul.navbar-nav{
+        text-align: center;
+    }
+    .navbtn{
+        width:50% !important;
+        margin-top:5px;
+    }
+    div.collapse{
+        margin-bottom: 3px;
+    }
+    .align {
+    margin-right: 3rem!important;
+    margin-left: 3rem!important;
+}
+
+}
+@media(min-width:992px){
+    .img-logo{
+        display:block;
+    }
+    .nav-item{
+        margin-top: 3rem;
+    }
+}
+.nav-item a.btn {
+    margin-right: 20px;
+    width: 100px;
+    padding: 8px;
+
+font-weight: 400;
+font-style: normal;
+}
+.bgImageContainer{
+    background-image:url('banner.jpg'); 
+    width:100%;
+    height:500px;
+    -webkit-filter: blur(10px);
+    filter: brightness(70%);
+    z-index:0;
+    position:absolute;
+    background-position: center;
+}
+.content{
+    z-index:10;
+    position:relative;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #eb98cc;">
+        <a class="navbar-brand d-lg-none mx-auto" href="#"><img src="site-logo.png" style="border-radius:25%"></a>
+        <div class="collapse navbar-collapse" id="myNavbarToggler7" >
+            <ul class="navbar-nav mx-auto" style="justify-content: center;">
+                <a class="d-none d-lg-block " href="#" style="
+                padding-left: 15%;
+                padding-right: 15%;
+            "><img src="site-logo.png" style="border-radius:25%"></a>
+             
+            </ul>
+        </div>
+    </nav>
+    <div class="bgImageContainer"></div>
+    <div class="container mx-auto"> <!-- Add the container and mx-auto classes -->
+        <div class="content">
+            <div class="px-4 py-5 my-5 text-center">
+
+        <h1 class="display-5 fw-bold text-white">Jess G Artistry</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-white">Melbourne based Makeup Artist, specialising in event makeup and sharing my expertise. <br>Visit my bookings page to arrange an appointment.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#bookings" class="btn btn-primary btn-lg px-4 gap-3" style="background-color: #eb98cc;border-color: #eb98cc;">Bookings</a>
+            <a href="#about" class="btn btn-dark btn-lg px-4 gap-3">About</a>
+          </div>
+        </div>
+      </div></div></div>
+      <div class="container mx-auto pt-5" id="about">
+        <div class="row align-items-md-stretch pt-5" id="bookings" >
+            <div class="col-md-12 pt-5 pb-5-" >
+        <div class="bg-body-tertiary p-5 rounded" style="background-color: #eb98cc !important">
+            <h1 class="text-white">Book an Appointment</h1>
+            <p class="lead text-white">Makeup Application appointments are 90 minutes for $50 and times are flexible.<br>If you have any enquiries please let me know below.</p>
+            <a class="btn btn-lg btn-outline-light" href="https://outlook.office365.com/owa/calendar/JessGArtistry1@jessgartistry.com.au/bookings/" target="_blank" role="button">New Booking »</a>
+          </div>
+      </div></div>
+    
+        <div class="row align-items-md-stretch pt-5">
+            <div class="col-md-6">
+                <div class="h-100 p-5 bg-body-tertiary rounded">
+                  <h2>About</h2>
+                  <p class="lead mb-4">Passionate about all things makeup. Based in Melbourne, I specialise in event makeup and sharing my expertise. <br>You can check out my portfolio on Instragram below.</p>
+                  <a class="btn btn-outline-secondary" href="https://instagram.com/creativeartistrybyjess" target="_blank">Instagram</a>
+                </div>
+              </div>
+          <div class="col-md-6">
+            <form action="https://getform.io/f/284af43e-ecbf-4ab2-b9f7-9f69dacd860e" method="POST">
+            <div class="h-100 p-5 bg-body-tertiary rounded">
+              <h2 class="pb-3">Contact</h2>
+              <div class="form-floating mb-3">
+                <input type="text" name="name" class="form-control" id="floatingName">
+                <label for="floatingName">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" name="email" class="form-control" id="floatingEmail">
+                <label for="floatingEmail">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" name="message" id="floatingTextarea" style="height: 100px"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <input type="hidden" name="_gotcha" style="display:none !important">
+              <button type="submit" class="btn btn-outline-secondary">Send</button>
+            </div>
+        </form>
+          </div>
+        </div>
+    
+        <footer class="pt-3 mt-4 text-body-secondary border-top mb-5">
+           © Jess G Artistry 2023<hr>
+        </footer>
+      </div></div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) {
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); 
+            $target.focus(); 
+          };
+        });
+      }
+    }
+  });
+    </script>
+</body>
+</html>
+</body>
+</html>
